@@ -1,7 +1,7 @@
 # Konf_Bruch
 Gegeben ist eine Klasse die einen Bruch abbildet. Ein Bruch besteht aus einem ganzzahligen Nenner (numerator) und einem ganzzahligen Zähler (denomiator).
 
-=> Der Konstruktur übernimmt die Werte für Nenner und Zähler
+=> Der Konstruktor übernimmt die Werte für Nenner und Zähler
 
 => Über get-Methoden sollen die Werte für Nenner und Zähler zurück geliefert werden
 
