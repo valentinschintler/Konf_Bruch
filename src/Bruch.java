@@ -25,7 +25,7 @@ public class Bruch {
 
     public String print() {
         // TODO: Die Methode soll den Bruch als Text retournieren z.B.: "5 / 7"
-        return "";
+        return numerator + "/" + denominator;
     }
 
     public Bruch multiplicate(Bruch b2) {
@@ -37,13 +37,28 @@ public class Bruch {
         *  Retournieren Sie ihre neue Bruch-Variable
         * */
 
+        int num = getNumerator();
+        int den = getDenominator();
 
-        return null;
+        Bruch ergebnis = new Bruch (num * b2.getNumerator(), den * b2.getDenominator());
+
+        return ergebnis;
     }
 
     public Bruch multiplicate(Bruch b2,  Bruch b3) {
         // TODO: Multiplizieren Sie den eigenen Bruch mit b2 und b3
 
-        return null;
+        int num = getNumerator();
+        int den = getDenominator();
+
+        int b2num = b2.getNumerator();
+        int b2den = b2.getDenominator();
+
+        int b3num = b3.getNumerator();
+        int b3den = b3.getDenominator();
+
+        Bruch ergebnis2 = new Bruch (num * b2num * b3num, den * b2den * b3den);
+         return ergebnis2;
+
     }
 }
